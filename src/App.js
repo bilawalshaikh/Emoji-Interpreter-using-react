@@ -30,7 +30,7 @@ export default function App() {
     <div className="App">
       <h1 style={{ color: "ORANGE" }}> Emoji Interpreter</h1>
       <input onChange={emojiinputChangeHandler}></input>
-      <h2> {meaning} </h2>
+      <h2 style={{ color: "ORANGE" }}> {meaning} </h2>
       <h3 style={{ color: "ORANGE" }}> Emoji we know</h3>
       {emojiWeKnow.map(function (emoji) {
         return (
