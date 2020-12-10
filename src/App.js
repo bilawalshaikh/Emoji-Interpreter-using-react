@@ -3,7 +3,7 @@ import "./styles.css";
 
 var emojiDictionary = {
   "😀": "smilling",
-  "😡": "angry",
+  "😡": "sad",
   "💋": "kiss",
   "👩‍": "lady",
   "👨‍👩‍👦": "family",
