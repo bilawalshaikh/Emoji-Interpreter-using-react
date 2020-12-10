@@ -3,12 +3,11 @@ import "./styles.css";
 
 var emojiDictionary = {
   "😀": "smilling",
-  "🤣": "laughfing",
   "😡": "angry",
   "💋": "kiss",
-  "👩‍🍳": "chef",
+  "👩‍": "lady",
   "👨‍👩‍👦": "family",
-  "👨🏼‍✈️": "officer"
+  "👨🏼‍": "men"
 };
 var emojiWeKnow = Object.keys(emojiDictionary);
 export default function App() {
